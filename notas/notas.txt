@@ -1,0 +1,28 @@
+function enviarEmail(para, id, assunto, texto) {
+  // biblioteca de envio de email
+  console.log(para, id, assunto, texto)
+}
+
+class EnviarEmailParaUsuario {
+  send() {
+    enviarEmail("dani@gmail.com", 9899, "Olá!", "Tudo bem?")
+  }
+}
+
+MESMO CÓDIGO COM TYPESCRIPT
+
+
+function enviarEmail(para: string, id: string, assunto: string, texto: string) {
+  console.log(para, id, assunto, texto)
+}
+
+
+class EnviarEmailParaUsuario {
+  send() {
+  enviarEmail("dani@gmail.com", 9899, "Olá!", "Tudo bem?")
+                                  |
+  }                               V
+                            APRESENTA O ERRO!
+}
+
+
