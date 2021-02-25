@@ -1,3 +1,5 @@
+--- AULAS 1 e 2 ---
+
 function enviarEmail(para, id, assunto, texto) {
   // biblioteca de envio de email
   console.log(para, id, assunto, texto)
@@ -31,6 +33,8 @@ $ yarn add sqlite3
 $ yarn typeorm migration:create -n CreateUsers
 $ yarn typeorm migration:run
 
+--- AULA 3 ---
+
 ALT + SHIFT + O = organiza imports
 
 ### TESTES AUTOMATIZADOS ###
@@ -52,3 +56,5 @@ $ yarn jest --init
   yes, yes, node, no (coverage), v8, yes
 
 $ yarn add -D supertest @types/supertest
+
+--- AULA 4 ---
