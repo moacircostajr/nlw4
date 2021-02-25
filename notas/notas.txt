@@ -35,10 +35,10 @@ ALT + SHIFT + O = organiza imports
 
 ### TESTES AUTOMATIZADOS ###
 
-1 - Testes unitários
+1 - Testes unitários (JEST)
   Utilizado no desenvolvimento com TDD
 
-2 - Testes de integração
+2 - Testes de integração (JEST + SUPERTEST)
   Testa a funcionalidade completa da aplicação
   rotas -> controller -> repository
                             |
@@ -47,9 +47,8 @@ ALT + SHIFT + O = organiza imports
 
 3 - Ponta a Ponta (E2E) (frontend)
 
-$ yarn add jest
-$ yarn add -D @types/jest
+$ yarn add -D jest @types/jest ts-jest
 $ yarn jest --init
   yes, yes, node, no (coverage), v8, yes
 
-$ yarn add -D ts-jest
+$ yarn add -D supertest @types/supertest
