@@ -58,3 +58,4 @@ $ yarn jest --init
 $ yarn add -D supertest @types/supertest
 
 --- AULA 4 ---
+$ yarn add handlebars
