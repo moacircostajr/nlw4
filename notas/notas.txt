@@ -31,3 +31,25 @@ $ yarn add sqlite3
 $ yarn typeorm migration:create -n CreateUsers
 $ yarn typeorm migration:run
 
+ALT + SHIFT + O = organiza imports
+
+### TESTES AUTOMATIZADOS ###
+
+1 - Testes unitários
+  Utilizado no desenvolvimento com TDD
+
+2 - Testes de integração
+  Testa a funcionalidade completa da aplicação
+  rotas -> controller -> repository
+                            |
+                            V
+            response <- controller
+
+3 - Ponta a Ponta (E2E) (frontend)
+
+$ yarn add jest
+$ yarn add -D @types/jest
+$ yarn jest --init
+  yes, yes, node, no (coverage), v8, yes
+
+$ yarn add -D ts-jest
