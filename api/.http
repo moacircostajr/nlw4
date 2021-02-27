@@ -12,6 +12,23 @@ Content-Type: application/json
 
 ###
 
+POST http://localhost:3333/users
+Content-Type: application/json
+
+{}
+
+###
+
+POST http://localhost:3333/users
+Content-Type: application/json
+
+{
+  "name": "Moacir",
+  "email": "testerepository.com.br"
+}
+
+###
+
 POST http://localhost:3333/surveys
 Content-Type: application/json
 
@@ -30,8 +47,12 @@ POST http://localhost:3333/sendMail
 Content-Type: application/json
 
 {
-  "email": "dani@rocketseat.com.br",
+  "email": "danilo@rocketseat.com.br",
   "survey_id": "7f76fc21-09ad-444c-baa8-f52185f7ede7"
 }
+
+###
+
+GET http://localhost:3333/nps/7f76fc21-09ad-444c-baa8-f52185f7ede7
 
 ###
